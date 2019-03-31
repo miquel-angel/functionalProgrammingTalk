@@ -1,5 +1,7 @@
 
-export function addWeaponDamage(weapon, baseDamage) {
+function addWeaponDamage(weapon, baseDamage) {
 
 }
+
+module.exports = addWeaponDamage;
 
