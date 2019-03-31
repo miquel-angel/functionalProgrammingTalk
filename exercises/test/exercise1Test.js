@@ -1,5 +1,5 @@
-const assert = require('assert');
-const addWeaponDamage = require('../src/exercise1');
+import assert from 'assert';
+import addWeaponDamage from '../src/exercise1';
 
 describe('Exercise 1', () => {
     it('When we pass base sword should add 10', () => {
@@ -10,7 +10,7 @@ describe('Exercise 1', () => {
         assert.equal(10, addWeaponDamage('dagger', 5));
     });
 
-    it('When we pass base sword arch add 7', () => {
+    it('When we pass base arch add 7', () => {
         assert.equal(12, addWeaponDamage('arch', 5));
     });
 });
