@@ -1,0 +1,13 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Examples and exercises of functional programming",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miquel Àngel Fontana",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
