@@ -1,5 +1,5 @@
 import assert from 'assert';
-import addWeaponDamage from '../src/exercise1';
+import {addWeaponDamage} from '../src/exercise1';
 
 /**
  * Try to use array.filter to do this exercise.
