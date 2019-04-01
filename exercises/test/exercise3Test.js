@@ -3,7 +3,6 @@ import {transformInRageMode} from "../src/exercise3";
 
 /**
  * Immutability!!
- * Think in array methods, and try to solve in a single line.
  */
 
 const character = {
