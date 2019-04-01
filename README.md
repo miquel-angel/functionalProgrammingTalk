@@ -7,3 +7,5 @@ You can run the test with npm run test-eX, where X is the exercise number.
 For example `npm run test-e1`
 
 In the test files you've tips.
+
+In solution branch, you can find a proposal solution. Of course there are many ways to resolve a problem, and in some exercises maybe exist an easier solution that not use functional approach.
