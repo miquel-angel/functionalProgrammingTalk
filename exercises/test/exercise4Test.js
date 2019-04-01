@@ -35,6 +35,6 @@ describe('Exercise 4', () => {
     });
 
     it('Given an object and a character name and hability should return a value', () => {
-        assert.equal(true, getHabilityValueForCharacter(team, 'Arya', 'baseDamage') instanceof Function);
+        assert.equal(20, getHabilityValueForCharacter(team, 'Arya', 'baseDamage'));
     });
 });
