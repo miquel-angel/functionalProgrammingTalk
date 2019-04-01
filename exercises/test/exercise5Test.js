@@ -3,7 +3,7 @@ import {getLiveRemain, getTotalDamage} from "../src/exercise5";
 import {addArchDamage, addDaggerDamage, addSwordDamage} from "../src/exercise2";
 
 /**
- * Remember the array methods :).
+ * Remember the array methods :) (map, reduce ...).
  */
 describe('Exercise 5', () => {
     it('Given an array of attacks should return the total damage.', () => {
