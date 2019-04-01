@@ -8,7 +8,8 @@
     "test-e2": "mocha --require @babel/register exercises/test/exercise2Test.js",
     "test-e3": "mocha --require @babel/register exercises/test/exercise3Test.js",
     "test-e4": "mocha --require @babel/register exercises/test/exercise4Test.js",
-    "test-e5": "mocha --require @babel/register exercises/test/exercise5Test.js"
+    "test-e5": "mocha --require @babel/register exercises/test/exercise5Test.js",
+    "test-e6": "mocha --require @babel/register exercises/test/exercise6Test.js"
   },
   "author": "Miquel Àngel Fontana",
   "license": "ISC",
