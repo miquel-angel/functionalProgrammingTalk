@@ -16,4 +16,8 @@ describe('Exercise 1', () => {
     it('When we pass base arch add 7', () => {
         assert.equal(12, addWeaponDamage('arch', 5));
     });
+
+    it('When we pass unknown weapon, should add 0 ', () => {
+        assert.equal(5, addWeaponDamage('unknown', 5));
+    });
 });
