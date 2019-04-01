@@ -1,6 +1,9 @@
 import assert from 'assert';
 import addWeaponDamage from '../src/exercise1';
 
+/**
+ * Try to use array.filter to do this exercise.
+ */
 describe('Exercise 1', () => {
     it('When we pass base sword should add 10', () => {
         assert.equal(15, addWeaponDamage('sword', 5));

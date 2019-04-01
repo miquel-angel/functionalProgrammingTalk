@@ -1,6 +1,9 @@
 import assert from 'assert';
 import {addArchDamage, addDaggerDamage, addSwordDamage} from '../src/exercise2';
 
+/**
+ * Try to solve this exercise with partial.
+ */
 describe('Exercise 2', () => {
     it('When we pass base sword should add 10', () => {
         assert.equal(15, addSwordDamage(5));
