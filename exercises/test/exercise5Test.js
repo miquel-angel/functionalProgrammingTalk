@@ -1,5 +1,5 @@
 import assert from 'assert';
-import {getLiveRemain, getTotalDamage} from "../src/exercise5";
+import {getRemainingLive, getTotalDamage} from "../src/exercise5";
 import {addBowDamage, addDaggerDamage, addSwordDamage} from "../src/exercise2";
 
 /**
@@ -14,6 +14,6 @@ describe('Exercise 5', () => {
     it ('Given an array of attacks and initial live, should return remain live.', () => {
         const baseDamage = 10;
         const attacks = [addSwordDamage, addSwordDamage, addDaggerDamage, addBowDamage];
-        assert.equal(28, getLiveRemain(attacks, baseDamage, 100));
+        assert.equal(28, getRemainingLive(attacks, baseDamage, 100));
     });
 });

@@ -1,4 +1,4 @@
 
 export const getTotalDamage = '';
 
-export const getLiveRemain = '';
+export const getRemainingLive = '';
