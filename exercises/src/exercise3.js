@@ -3,7 +3,7 @@ export const transformInRageMode = (character) => {
   let characterRage = {};
 
     Object.keys(character).forEach((key) => {
-        characterRage[key] = Math.floor(character[key] + 0.1 * character[key]);
+        characterRage[key] = Math.floor(character[key] * 1.1 );
     });
 
   return characterRage;
