@@ -14,7 +14,7 @@ const damagesPerWeapon = [
 ];
 
 export function addWeaponDamage(weapon, baseDamage) {
-    const weaponDamage = damagesPerWeapon.filter((weaponDamage) => weaponDamage.name === weapon);
-
-    return (weaponDamage[0])? weaponDamage[0].damage + baseDamage : baseDamage;
+    return damagesPerWeapon
+        .filter((weaponDamage) => weaponDamage.name === weapon)
+        .reduce((accumulatedDamage, weaponDamage) => accumulatedDamage + weaponDamage.damage, baseDamage);
 }
