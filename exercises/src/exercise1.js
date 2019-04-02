@@ -8,7 +8,7 @@ const damagesPerWeapon = [
         'damage': 5
     },
     {
-        'name': 'arch',
+        'name': 'bow',
         'damage': 7
     }
 ];
