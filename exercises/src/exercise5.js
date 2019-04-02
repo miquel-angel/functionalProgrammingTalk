@@ -5,7 +5,7 @@ export const getTotalDamage = (attacks, baseDamage) => {
         .reduce((previousValue, currentValue) => previousValue + currentValue, 0);
 };
 
-export const getLiveRemain = (attacks, baseDamage, initialLive) => {
+export const getRemainingLive = (attacks, baseDamage, initialLive) => {
     return attacks
         .map((attack) => attack(baseDamage))
         .reduce((previousValue, currentValue) => previousValue - currentValue, initialLive);
