@@ -1,5 +1,5 @@
 import assert from 'assert';
-import {addArchDamage, addDaggerDamage, addSwordDamage} from '../src/exercise2';
+import {addBowDamage, addDaggerDamage, addSwordDamage} from '../src/exercise2';
 
 /**
  * Try to solve this exercise with partial.
@@ -13,7 +13,7 @@ describe('Exercise 2', () => {
         assert.equal(10, addDaggerDamage(5));
     });
 
-    it('When we pass base arch add 7', () => {
-        assert.equal(12, addArchDamage(5));
+    it('When we pass base bow add 7', () => {
+        assert.equal(12, addBowDamage(5));
     });
 });
