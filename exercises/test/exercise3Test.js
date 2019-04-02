@@ -34,7 +34,7 @@ describe('Exercise 3', () => {
             character
         );
     });
-    it('We can enter in range mode many times', () => {
+    it('We can enter in rage mode many times', () => {
        assert.deepEqual(
            {
                'baseDamage': 12,
