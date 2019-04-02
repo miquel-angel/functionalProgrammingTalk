@@ -13,8 +13,8 @@ describe('Exercise 1', () => {
         assert.equal(10, addWeaponDamage('dagger', 5));
     });
 
-    it('When we pass base arch add 7', () => {
-        assert.equal(12, addWeaponDamage('arch', 5));
+    it('When we pass base bow add 7', () => {
+        assert.equal(12, addWeaponDamage('bow', 5));
     });
 
     it('When we pass unknown weapon, should add 0 ', () => {
