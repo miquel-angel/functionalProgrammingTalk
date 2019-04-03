@@ -1,10 +1,12 @@
 
 export const transformInRageMode = (character) => {
-  let characterRage = {};
-
-    Object.keys(character).forEach((key) => {
-        characterRage[key] = Math.floor(character[key] * 1.1 );
-    });
-
-  return characterRage;
+    return Object.keys(character).map((key) => {
+       return {
+           key,
+           value: Math.floor(character[key] * 1.1 )
+       };
+    }).reduce((newCharacter, hability) => {
+        newCharacter[hability.key] = hability.value;
+        return newCharacter;
+    }, {});
 };
